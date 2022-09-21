@@ -50,6 +50,44 @@
                         </label>
                     </div>
                 </div>
+
+                <div class="row-content">
+                    <label class="label text" for="gender">Gender</label>
+                    <div>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label class="text" for="male">Male</label>
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        <label class="text" for="Female">Female</label>
+                    </div>
+                </div>
+
+                <div class="row-content">
+                    <label class="label text" for="department">Department</label>
+                    <div>
+                        <input class="checkbox" type="checkbox" id="hr" name="hr" value="hr">
+                        <label class="text" for="hr">HR</label>
+
+                        <input class="checkbox" type="checkbox" id="sales" name="sales" value="sales">
+                        <label class="text" for="sales">Sales</label>
+
+                        <input class="checkbox" type="checkbox" id="finance" name="finance" value="finance">
+                        <label class="text" for="finance">Finance</label>
+
+                        <input class="checkbox" type="checkbox" id="engineer" name="engineer" value="engineer">
+                        <label class="text" for="engineer">Engineer</label>
+
+                        <input class="checkbox" type="checkbox" id="other" name="other" value="other">
+                        <label class="text" for="other">Others</label>
+                    </div>
+                </div>
+
+                <div class="row-content">
+                    <label class="label text" for="salary">Choose your salary  </label>
+                    
+                        <input class="input" type="range" id="salary" name="salary" min="300000" max="500000" step="100" value="400000">
+                        <label class="text" for="hr">HR</label>
+                        <output class="salary-output text">400000</output>                    
+                </div>
             </form>
         </div>
     </body>
